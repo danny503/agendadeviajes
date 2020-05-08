@@ -5,6 +5,11 @@ const routes = require('./routes');
 const configs = require('./config')
 
 
+// db.authenticate()
+//     .then(() => console.log('DB conectada'))
+//     .catch(error => console.log(error))
+
+
 //configurar express
 const app = express();
 

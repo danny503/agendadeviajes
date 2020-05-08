@@ -10,6 +10,11 @@ module.exports = function() {
             pagina: 'Sobre nosotros'
         });
     })
+    router.get('/viajes', (req, res) => {
+        res.render('viajes', {
+            pagina: 'Proximos viajes'
+        });
+    })
 
     return router;
 }
