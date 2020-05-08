@@ -15,7 +15,7 @@ module.exports = function() {
     router.get('/viajes', (req, res) => {
         Viaje.findAll()
             .then(viajes => res.render('viajes', {
-                pagina: 'Proximos viajes', viajes: viajes
+                pagina: 'Proximos viajes', viajes
             }))
             .catch(error => console.log(error))
     })

@@ -20,7 +20,7 @@ const Viaje = db.define('viaje', {
     descripcion: {
         type: Squelize.STRING
     },
-    disponible: {
+    disponibles: {
         type: Squelize.STRING
     }
     
